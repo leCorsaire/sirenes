@@ -1,0 +1,184 @@
+body
+{
+    width:100%;
+    margin:0px;
+    background-color: black;
+}
+
+#logo
+{
+    width: 300px;
+    height: auto;
+    padding-top: 10px;
+}
+
+footer
+{
+    color: white;
+    width: 100%;
+    background-color: black;
+}
+
+footer section
+{
+    width: 20%;
+    heigth: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.glyphicon
+{
+    margin-right: 5px;
+}
+
+footer section p
+{
+    margin: 10px;
+}
+
+@media all and (min-width: 1024px)
+{
+    header
+    {
+        /*background-color: rgba(255,255,255,0.6);
+        background-color: white;*/
+    }
+    
+    #logo
+    {
+        margin-left: 100px;
+    }
+
+    #social
+    {
+        width: 30%;
+        display: flex;
+    }
+
+    .social-icon
+    {
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        padding: 5px;
+        height: auto;
+        width: 40px;
+        height: auto;
+    }
+
+    #social section
+    {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    #artbook-margin
+    {
+        margin-left: 20px;
+    }
+
+    #mail, #facebook
+    {
+        width: 26%;
+    }
+
+    #mail
+    {
+        background-color:#e6b763;
+    }
+
+    #facebook
+    {
+        background-color:#3b5998;
+    }
+
+    #artbook
+    {
+        display: flex;
+        justify-content: space-between;
+        width: 58%;
+        background-color:#761049;
+    }
+
+    #artbook p
+    {
+        font-family: "Roboto-light", "Verdana", "Sans-Serif";
+        font-size: 24px;
+        color: white;
+        margin-top: 70px;
+        margin-left: 30px;
+    }
+    
+    footer
+    {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        height: 200px;
+    }
+    
+    footer section
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: space-between;
+    }
+    
+}
+
+@media all and (max-width: 1023px) /* Tablets */
+{   
+    header
+    {
+        background-color: white;
+    }
+    
+    #social
+    {
+        display: none;
+    }
+    
+    #slide_nav section
+    {
+        margin-top: -200px;
+        width: 40px;
+        height: 20px;
+    }
+    
+    #slide_nav section img
+    {
+        width: 20px;
+    }
+    
+    .white-page
+    {
+        margin-top: 250px;
+    }
+    
+    #page_1, #page_2, #page_3
+    {
+        background-size: cover;
+        background-position: top;
+    }
+    
+    footer
+    {
+        text-align: center;
+        height: 100px;
+        margin-top: 25px;
+    }
+    
+    footer section
+    {
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+        height: auto;
+        margin-top: 30px;
+    }
+}

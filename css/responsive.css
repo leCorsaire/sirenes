@@ -1,0 +1,76 @@
+@media all and (min-width: 1024px)
+{
+    #slider
+    {
+        margin-top: 150px;
+    }
+    
+    #logo
+    {
+        margin-left: 100px;
+    }
+    
+    #footer_upper, #footer_upper img
+    {
+        width: 40px;
+    }
+    
+    #footer_upper
+    {
+        border-radius: 10px;
+        padding: 10px;
+        background-color: black;
+        opacity: 0.5;
+    }
+    
+    .white-page
+    {
+        height: 100%;
+    }
+}
+
+@media all and (max-width: 1023px) /* Tablets */
+{  
+    header
+    {
+        height: 150px;
+        background-color: white;
+    }
+    
+    #slider
+    {
+        margin-top: 150px;
+        height: 450px;
+        width: 100%;
+        background-position: center center;
+    }
+    
+    #contain_logo
+    {
+        text-align: center;
+    }
+
+    footer section p
+    {
+        font-size: 11px;
+    }
+    
+    #footer_upper, #footer_upper img
+    {
+        width: 20px;
+    }
+    
+    #footer_upper
+    {
+        border-radius: 10px;
+        padding: 10px;
+        margin-top: -40px;
+        background-color: black;
+        opacity: 0.5;
+    }
+}
+
+@media all and (max-width: 768px) /* Smartphones */
+{   
+
+}

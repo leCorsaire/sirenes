@@ -1,0 +1,13 @@
+#page_2
+    {
+        background-image: url(../img/page-2-background.jpg);
+        background-repeat: no-repeat;
+    } 
+
+@media all and (min-width: 1024px)
+{
+   #page_2
+    {
+        background-size: cover;
+    }
+}

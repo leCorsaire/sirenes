@@ -1,0 +1,79 @@
+header
+{
+    width: 100%;
+    z-index: 10;
+}
+
+#slider
+{
+    background-image: url(../img/slide-2.jpg);
+    background-size: contain;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
+#sticky
+{
+    background-color: #181818;
+    min-height: 80px;
+    color: white;
+    text-align: center;
+}
+
+.white-page
+{
+    background-color: rgba(255,255,255,0.4);
+    font-family: "Roboto-light", "Verdana", "Sans-Serif";
+    color: white;
+    z-index: 1;
+    overflow: auto;
+}
+
+
+@media all and (min-width: 1024px)
+{
+    header
+    {
+        position: fixed;
+    }
+    
+    #sticky
+    {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    #slider
+    {
+        height: 100%;
+        width: 100%;
+        background-position: center center;
+    }
+}
+
+@media all and (max-width: 1023px) /* Tablets */
+{   
+    header
+    {
+        position:absolute;
+    }
+    
+    #sticky
+    {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    #slider
+    {
+        height: 450px;
+        width: 100%;
+        background-position: right 50px;
+    }
+    
+    .white-page
+    {
+        text-shadow: 1px 1px 2px black;
+    }
+}

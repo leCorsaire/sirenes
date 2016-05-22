@@ -1,0 +1,11 @@
+@font-face
+{
+    font-family:"Znikomit"
+        src:("../fonts/znikomit/znikomit.otf");
+    
+    font-family:"Roboto"
+        src:("../fonts/roboto/Roboto-Regular.ttf");
+    
+    font-family:"Roboto-light"
+        src:("../fonts/roboto/Roboto-Light.ttf");
+}

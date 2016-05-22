@@ -1,0 +1,10 @@
+header
+{
+    border-bottom: 1px solid #00a9cd;
+    margin-bottom: 60px;
+}
+
+.champ
+{
+    min-height: 200px;
+}

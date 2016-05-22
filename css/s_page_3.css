@@ -1,0 +1,14 @@
+#page_3
+    {
+        background-image: url(../img/page-3-background.jpg);
+        background-repeat: no-repeat;
+    } 
+
+@media all and (min-width: 1024px)
+{
+   #page_3
+    {
+        background-size: cover;
+        background-position: center right;
+    }
+}
